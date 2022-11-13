@@ -1,0 +1,8 @@
+.dashboard-container {
+    margin: 50px;
+    border: 5px solid #F2F2F2;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 800px);
+    row-gap: 1.8rem;
+}

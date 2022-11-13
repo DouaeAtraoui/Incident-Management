@@ -1,0 +1,108 @@
+.nav-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 30px;
+}
+
+.nav-container .nav-logo {
+    text-decoration: none;
+    color: #101E26;
+    font-weight: 1000;
+    font-size: larger;
+}
+
+.nav-container .nav-logo .logo{
+    font-weight: 1000;
+    font-size: larger;
+}
+
+.nav-container .nav__menu {
+    margin-left: auto;
+    padding-right: 60px;
+}
+
+
+.nav-container .nav__menu .nav__list {
+    list-style: none;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+
+.nav-container .nav__menu .nav__list .nav__item .nav__link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container .nav__menu .nav__list .nav__item .nav__link:hover {
+    text-decoration: underline;
+    color: #9BAEBF;
+}
+
+.nav-container .nav__toggle {
+    color: black;
+}
+
+.nav-container .nav__toggle,
+.nav__close {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .nav__menu {
+        position: fixed;
+        top: -100%;
+        right: 0;
+        width: 30%;
+        height: 100%;
+        background-color: #BFCAD9;
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        transition: .3s;
+    }
+
+    .nav-container  .show-menu {
+        top: 0;
+    }
+
+    .nav-container .nav__menu .nav__list {
+        display: flex;
+        flex-direction: column;
+        line-height: 7em;
+    }
+
+    .nav__close {
+        position: absolute;
+        right: 1.3rem;
+        padding-right: 17px;
+        font-size: 2.2rem;
+        top: .5rem;
+        cursor: pointer;
+    }
+
+    .nav-container .nav__toggle {
+        position: fixed;
+        padding-right: 40px;
+        right: 0;
+        font-size: 1.5rem;
+        top: .8rem;
+        cursor: pointer;
+    }
+
+    .nav-container .nav__toggle:hover {
+        color: #9BAEBF;
+    }
+
+    .nav-container .nav__close:hover {
+        color: #9BAEBF;
+    }
+
+    .nav-container .nav__toggle, .nav__close {
+        display: block;
+    }
+}

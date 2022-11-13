@@ -1,0 +1,40 @@
+.card_login {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(2,450px);
+    align-items: center;
+    padding: 50px;
+}
+
+.card{
+    display: flex;
+    padding: 40px 20px 70px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 25%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(1, 1, 1, 0.3);
+    border-radius: 50%;
+}
+
+.card-btn {
+    padding: 5px 10px;
+    border: 1px solid rgba(1, 1, 1, 0.2);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: white;
+}
+
+.card-btn:hover {
+    background-color: rgba(184, 216, 224, 1);
+    cursor: pointer;
+}

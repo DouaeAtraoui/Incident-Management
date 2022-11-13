@@ -1,0 +1,31 @@
+.filter {
+    margin-top: 30px;
+}
+.header .items {
+    display: none;
+}
+
+.header-active .items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-left: 50px;
+    font-size: medium;
+    font-weight: 200;
+    background-color: white;
+    border: none;
+    border: 1px solid #101E26 ;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.btn-item {
+    font-size: medium;
+    font-weight: 200;
+    background-color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
